@@ -1,0 +1,28 @@
+:root {
+  --color-green: hsl(75, 94%, 57%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-grey: hsl(0, 0%, 20%);
+  --color-darkgrey: hsl(0, 0%, 12%);
+  --color-black: hsl(0, 0%, 8%);
+
+  --font-family: 'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background: var(--color-black);
+}
